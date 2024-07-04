@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.front{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.121),rgba(0, 0, 0, 0.073)), url("../images/main.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+}
+.content h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+.content p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+.content .btn{
+    padding: 13px;
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #4e4b4b;
+    cursor: pointer;
+}
+.content .btn:hover{
+    background-color: rgb(172, 172, 172);
+    color: #fffcfc;
+    transition:0.3s ease-in;
+}
+.bought{
+    height: 100vh;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.bought .content{
+    color: black;
+    padding: 150px 15% 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bought .content h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.bought .image{
+    display: inline-flex;
+}
+.bought .image .div{
+    background-color:rgba(114, 255, 208, 0.604) ;
+    height: auto;
+    width: 32%;
+    text-align: center;
+    margin: 0 10px;
+
+}
+.bought .image .div img{
+    width: 100%;
+    height: auto;
+}
+div .div .z{
+    margin-left: 15px;
+}
+div .div h5{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 0;
+}
+div .div p{
+    padding: 5px;
+    padding-bottom: 8px;
+    font-family: monospace;
+}
+.vid {
+    margin: 0 10% 30px;
+    border: 0.5px solid black;
+    box-shadow: 1px 1px 5px #7d7878;
+    width: 80%;
+}
+div .text {
+    padding-left: 5px;
+}
+div .text p{
+    font-family: fantasy;
+    padding: 5px;
+    color: #88828294;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px 0;
+}
+div .text h3{
+    font-size: 25px;
+    padding-left: 3px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+div .text hr{
+    width: 98%;
+    height: auto;
+    margin: 15px 0;
+    margin-left: 10px;
+}
+.bought .second .div{
+    background-color: rgba(94, 230, 230, 0.594);
+}
+div.signup{
+    width: 200px;
+    background-color: #8787C5;
+    border: 1px solid gray;
+}
+div.signin, div.signup{
+    width: 300px;
+    height: 400px;
+    background-color: #8787C5;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 20px #ababab ;
+}
+.fom{
+    display: flex;
+    justify-content: center;
+    background-color: #E3E3FF;
+    padding: 50px;
+}
+.fom label{
+    font-size: 15px;
+    color: #0e0e0e;
+    padding-left: 12px;
+}
+.fom input, select{
+    margin: 5px 10px 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+.fom h3{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fom input::placeholder{
+    font-size: 11px;
+    padding-left: 5px;
+}
